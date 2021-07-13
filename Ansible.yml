@@ -1,0 +1,12 @@
+
+
+---
+ - hosts : arun
+   tasks :
+    - name: copy the file
+      copy:
+        src: "/opt/tibco"
+        dest: "/etc/sandhata"
+    - debug: "Copied suucessfully" 
+    
+    
